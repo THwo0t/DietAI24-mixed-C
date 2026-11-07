@@ -1,0 +1,23 @@
+# Python 3.10.13 (env/env.yml). Only the packages that code/ imports, pinned to env/env.yml.
+# code/ViT/ is left out: it needs torch, transformers and fire, which env/env.yml does not
+# list, and the ViT baseline is not part of this reproduction (CHECKLIST.md A1).
+#
+# Every dependency of these packages was also held to its env/env.yml version; the
+# resulting environment is archived in env/pip-freeze.txt. To rebuild it:
+#   uv python install 3.10.13
+#   uv venv --python 3.10.13 .venv
+#   uv pip install --python .venv/bin/python -r requirements.txt -c env/pip-freeze.txt
+
+chromadb==0.4.24            # langchain_community.vectorstores.Chroma (rag_food_code.py)
+inflect==7.2.1              # rag_portion_size.py
+langchain==0.1.9            # rag_food_code.py
+langchain-community==0.0.24 # rag_food_code.py
+langchain-core==0.1.35      # rag_food_code.py
+langchain-openai==0.0.7     # rag_food_code.py
+numpy==1.26.4
+openai==1.12.0              # chagApp_openai.py, chatApp_azure.py
+openpyxl==3.1.2             # pandas.read_excel on the FNDDS .xlsx files
+pandas==2.2.1
+pillow==10.2.0              # baseline_calorieMaMa.py
+python-dotenv==1.0.1        # chagApp_openai.py
+requests==2.31.0            # rag_food_code.py, nutrition5k_proc.py, baselines

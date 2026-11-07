@@ -1,0 +1,132 @@
+{
+  "version": "original mixed C, unadjusted",
+  "historical_note": "Previously collected development results, not a new run or independent acceptance; 843 association records correspond to 663 unique images.",
+  "models": {
+    "recognition": "gemini-3.8-flash",
+    "selection": "gemini-3.8-flash",
+    "N5_portion": "gemini-3.8-flash",
+    "ASA_portion": "gpt-6.1-sol",
+    "query_rewrite": "gpt-6.1-sol",
+    "embedding": "text-embedding-3-large"
+  },
+  "N5_without_label_fallback": {
+    "population_n": 314,
+    "scored_n": 313,
+    "failed_n": 1,
+    "success_rate": 0.9968152866242038,
+    "correction_applied": false,
+    "fallback_imputation_applied": false,
+    "metrics": {
+      "weight": {
+        "mae": 51.24920127795527,
+        "per_unit": 0.21714293449568853,
+        "reference_mean": 236.01597444089458,
+        "absolute_error_sum": 16041.0,
+        "reference_sum": 73873.0,
+        "threshold_mae": 58.63,
+        "threshold_per_unit": 0.2028,
+        "pass_mae": true,
+        "pass_per_unit": false
+      },
+      "energy": {
+        "mae": 82.01217376908444,
+        "per_unit": 0.28888334713218594,
+        "reference_mean": 283.8937397507987,
+        "absolute_error_sum": 25669.81038972343,
+        "reference_sum": 88858.740542,
+        "threshold_mae": 88.66,
+        "threshold_per_unit": 0.2561,
+        "pass_mae": true,
+        "pass_per_unit": false
+      },
+      "fat": {
+        "mae": 6.088010353275079,
+        "per_unit": 0.42437257042052867,
+        "reference_mean": 14.345909178913738,
+        "absolute_error_sum": 1905.5472405750997,
+        "reference_sum": 4490.269573,
+        "threshold_mae": 5.213,
+        "threshold_per_unit": 0.2938,
+        "pass_mae": false,
+        "pass_per_unit": false
+      },
+      "carbs": {
+        "mae": 7.510610822402443,
+        "per_unit": 0.3144916641649341,
+        "reference_mean": 23.881748479233227,
+        "absolute_error_sum": 2350.8211874119647,
+        "reference_sum": 7474.987274,
+        "threshold_mae": 7.774,
+        "threshold_per_unit": 0.2756,
+        "pass_mae": true,
+        "pass_per_unit": false
+      },
+      "protein": {
+        "mae": 5.968640133197702,
+        "per_unit": 0.3376101634380562,
+        "reference_mean": 17.67908901916933,
+        "absolute_error_sum": 1868.1843616908807,
+        "reference_sum": 5533.554863,
+        "threshold_mae": 5.044,
+        "threshold_per_unit": 0.2444,
+        "pass_mae": false,
+        "pass_per_unit": false
+      }
+    }
+  },
+  "ASA_conditional_selected_reference_code": {
+    "records": 529,
+    "unique_images": 349,
+    "matched_associations": 176,
+    "primary_code_matches": 120,
+    "conditional_fallback_n": 0,
+    "metrics": {
+      "weight": {
+        "mae": 55.45443465909093,
+        "per_unit": 0.3700290189013552,
+        "reference_mean": 149.8650965909091,
+        "threshold_mae": 64.22,
+        "threshold_per_unit": 0.4524,
+        "pass_mae": true,
+        "pass_per_unit": true
+      },
+      "energy": {
+        "mae": 68.98029213068185,
+        "per_unit": 0.331835551666182,
+        "reference_mean": 207.87493017045455,
+        "threshold_mae": 62.01,
+        "threshold_per_unit": 0.2548,
+        "pass_mae": false,
+        "pass_per_unit": false
+      },
+      "fat": {
+        "mae": 2.780806591477272,
+        "per_unit": 0.30056446371007217,
+        "reference_mean": 9.251947343181824,
+        "threshold_mae": 2.34,
+        "threshold_per_unit": 0.2262,
+        "pass_mae": false,
+        "pass_per_unit": false
+      },
+      "carbs": {
+        "mae": 9.356111845454548,
+        "per_unit": 0.3533437474529591,
+        "reference_mean": 26.478781393181816,
+        "threshold_mae": 9.035,
+        "threshold_per_unit": 0.2704,
+        "pass_mae": false,
+        "pass_per_unit": false
+      },
+      "protein": {
+        "mae": 2.3524958613636375,
+        "per_unit": 0.352864313529462,
+        "reference_mean": 6.6668568375,
+        "threshold_mae": 1.794,
+        "threshold_per_unit": 0.3029,
+        "pass_mae": false,
+        "pass_per_unit": false
+      }
+    }
+  },
+  "source_backup_commit": "e81f1f69c6a7d11bc9418ce92cce99689ddf1ccb"
+}

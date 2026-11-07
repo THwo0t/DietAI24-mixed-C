@@ -1,0 +1,658 @@
+{
+  "schema_version": 1,
+  "cohort": "external50",
+  "images": [
+    {
+      "image_id": "nutritionverse-real-b8b0bca9195e89eccd5619ab9aa88c4aba00050de8bfce45b9ea2289b792e4a8",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/b8b0bca9195e89eccd5619ab9aa88c4aba00050de8bfce45b9ea2289b792e4a8.jpg",
+      "sha256": "b8b0bca9195e89eccd5619ab9aa88c4aba00050de8bfce45b9ea2289b792e4a8",
+      "source_id": 36,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_36_IMG_6149_jpeg.rf.25304e133f27ede4db788e51b756a122.jpg",
+      "bytes": 1120416
+    },
+    {
+      "image_id": "nutritionverse-real-bb8fdbe30468f23d5a7fa2be84122c3fc6f7c87141502218ce5aac512f257ac1",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/bb8fdbe30468f23d5a7fa2be84122c3fc6f7c87141502218ce5aac512f257ac1.jpg",
+      "sha256": "bb8fdbe30468f23d5a7fa2be84122c3fc6f7c87141502218ce5aac512f257ac1",
+      "source_id": 37,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_37_IMG_6168_jpeg.rf.b432a0ccdca4e90a7cd5098e2aa5ef49.jpg",
+      "bytes": 1401519
+    },
+    {
+      "image_id": "nutritionverse-real-1b89902475a7cebad3ccffbe1c7d5d737313b8b4f6045d692c6dac78fcca4823",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/1b89902475a7cebad3ccffbe1c7d5d737313b8b4f6045d692c6dac78fcca4823.jpg",
+      "sha256": "1b89902475a7cebad3ccffbe1c7d5d737313b8b4f6045d692c6dac78fcca4823",
+      "source_id": 38,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_38_IMG_6181_jpeg.rf.b856f0f038f3b60fc552fb9d1a212164.jpg",
+      "bytes": 1224627
+    },
+    {
+      "image_id": "nutritionverse-real-86afdb0e6a7946a97d481b6926f711e3caf55bddc82936299da65e9740d8415b",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/86afdb0e6a7946a97d481b6926f711e3caf55bddc82936299da65e9740d8415b.jpg",
+      "sha256": "86afdb0e6a7946a97d481b6926f711e3caf55bddc82936299da65e9740d8415b",
+      "source_id": 39,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_39_IMG_6208_jpeg.rf.4be73431f0d19044aab5da106593b0fc.jpg",
+      "bytes": 1096454
+    },
+    {
+      "image_id": "nutritionverse-real-cdc9a5c086a225fe23f9e7f5cd4e2a154ee8ce0a14ddde460d02a75220065200",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/cdc9a5c086a225fe23f9e7f5cd4e2a154ee8ce0a14ddde460d02a75220065200.jpg",
+      "sha256": "cdc9a5c086a225fe23f9e7f5cd4e2a154ee8ce0a14ddde460d02a75220065200",
+      "source_id": 40,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_40_IMG_6225_jpeg.rf.f3c25ebd49dfe99599afb1c01b338c8f.jpg",
+      "bytes": 887187
+    },
+    {
+      "image_id": "nutritionverse-real-b68cf082eb686a34042caad20045e32ed4668f446a4f2ac3ce191c5fb70b8fbe",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/b68cf082eb686a34042caad20045e32ed4668f446a4f2ac3ce191c5fb70b8fbe.jpg",
+      "sha256": "b68cf082eb686a34042caad20045e32ed4668f446a4f2ac3ce191c5fb70b8fbe",
+      "source_id": 47,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_47_IMG_6354_jpeg.rf.05ecd751c143e90cd09cf03e8e0d7f6e.jpg",
+      "bytes": 1173005
+    },
+    {
+      "image_id": "nutritionverse-real-34dd5b417449941fc9f60a0ce52b5ce645cd356b2aef491849362e6706f74c10",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/34dd5b417449941fc9f60a0ce52b5ce645cd356b2aef491849362e6706f74c10.jpg",
+      "sha256": "34dd5b417449941fc9f60a0ce52b5ce645cd356b2aef491849362e6706f74c10",
+      "source_id": 56,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_56_IMG_6459_jpeg.rf.222471e0e6a80233b9f7c2328ef10a6c.jpg",
+      "bytes": 1586465
+    },
+    {
+      "image_id": "nutritionverse-real-7073785dbec2f253a56cee134e35b4d78764fc3e3f970f003a8651e81235a62f",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/7073785dbec2f253a56cee134e35b4d78764fc3e3f970f003a8651e81235a62f.jpg",
+      "sha256": "7073785dbec2f253a56cee134e35b4d78764fc3e3f970f003a8651e81235a62f",
+      "source_id": 57,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_57_IMG_6483_jpeg.rf.64905f1c9bedd0c9919709c894ec25a4.jpg",
+      "bytes": 1215085
+    },
+    {
+      "image_id": "nutritionverse-real-2e4d34bee8686234be89a5610075a7be709dd139912aa47279d593e3475a7951",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/2e4d34bee8686234be89a5610075a7be709dd139912aa47279d593e3475a7951.jpg",
+      "sha256": "2e4d34bee8686234be89a5610075a7be709dd139912aa47279d593e3475a7951",
+      "source_id": 59,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_59_IMG_6992_jpeg.rf.bb5ded37b11d8fb6bdb38d9822708a49.jpg",
+      "bytes": 1476578
+    },
+    {
+      "image_id": "nutritionverse-real-1e31452eb945b2758ed402e2e6af5a03aeecf280200da301bb4e337f922f3e94",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/1e31452eb945b2758ed402e2e6af5a03aeecf280200da301bb4e337f922f3e94.jpg",
+      "sha256": "1e31452eb945b2758ed402e2e6af5a03aeecf280200da301bb4e337f922f3e94",
+      "source_id": 60,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_60_IMG_6523_jpeg.rf.fb14de0fd0351efbbb9d2b84753225e3.jpg",
+      "bytes": 1512774
+    },
+    {
+      "image_id": "nutritionverse-real-dc7687ec05b2c5274d561198d16171847edefbe28f7a858867c7c0f7fa1d54c2",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/dc7687ec05b2c5274d561198d16171847edefbe28f7a858867c7c0f7fa1d54c2.jpg",
+      "sha256": "dc7687ec05b2c5274d561198d16171847edefbe28f7a858867c7c0f7fa1d54c2",
+      "source_id": 63,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_63_IMG_6567_jpeg.rf.9ee116cc0eab359e62956df7b8f30b41.jpg",
+      "bytes": 1399028
+    },
+    {
+      "image_id": "nutritionverse-real-f5e536f33007a01b8d8682482ceb2dcf0971e73fda173b63ea14776b14ba12bc",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/f5e536f33007a01b8d8682482ceb2dcf0971e73fda173b63ea14776b14ba12bc.jpg",
+      "sha256": "f5e536f33007a01b8d8682482ceb2dcf0971e73fda173b63ea14776b14ba12bc",
+      "source_id": 64,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_64_IMG_6589_jpeg.rf.8a4b051d0b9b2e67594f7e42383b73a4.jpg",
+      "bytes": 1005461
+    },
+    {
+      "image_id": "nutritionverse-real-39ca44fea7c239ca4d704273823a064029e4a249d94f7e4606e6c708426fb805",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/39ca44fea7c239ca4d704273823a064029e4a249d94f7e4606e6c708426fb805.jpg",
+      "sha256": "39ca44fea7c239ca4d704273823a064029e4a249d94f7e4606e6c708426fb805",
+      "source_id": 65,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_65_IMG_6605_jpeg.rf.e655e5342d73f6071fb1fcf424d43533.jpg",
+      "bytes": 1125723
+    },
+    {
+      "image_id": "nutritionverse-real-c728fc9450738e09d99a1ae0905e228bbd283989dee9af721836c4ce0e4a8db8",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/c728fc9450738e09d99a1ae0905e228bbd283989dee9af721836c4ce0e4a8db8.jpg",
+      "sha256": "c728fc9450738e09d99a1ae0905e228bbd283989dee9af721836c4ce0e4a8db8",
+      "source_id": 71,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_71_IMG_7335_jpeg.rf.5881abb12964acb4bb17f504b301d5cc.jpg",
+      "bytes": 1191578
+    },
+    {
+      "image_id": "nutritionverse-real-8157e50ab7eafd46d1a41049ee3c78c5edb1de8e3fd8907e1901c279e4bbc679",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/8157e50ab7eafd46d1a41049ee3c78c5edb1de8e3fd8907e1901c279e4bbc679.jpg",
+      "sha256": "8157e50ab7eafd46d1a41049ee3c78c5edb1de8e3fd8907e1901c279e4bbc679",
+      "source_id": 72,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_72_IMG_7380_jpeg.rf.c75a03ff8d815d229d96bf94bbe092f7.jpg",
+      "bytes": 1230766
+    },
+    {
+      "image_id": "nutritionverse-real-f68541a139517ff5f751b0f44fa6a39e6db0c0531c5d2c92eec778d25f3a609f",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/f68541a139517ff5f751b0f44fa6a39e6db0c0531c5d2c92eec778d25f3a609f.jpg",
+      "sha256": "f68541a139517ff5f751b0f44fa6a39e6db0c0531c5d2c92eec778d25f3a609f",
+      "source_id": 87,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_87_IMG_7992_jpeg.rf.61028f6a8526a0e151c18875fa0c8be5.jpg",
+      "bytes": 979172
+    },
+    {
+      "image_id": "nutritionverse-real-99760c7a056c077711f332f0ec49356e51f247710d0d6f0e70da1b57ef5d594e",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/99760c7a056c077711f332f0ec49356e51f247710d0d6f0e70da1b57ef5d594e.jpg",
+      "sha256": "99760c7a056c077711f332f0ec49356e51f247710d0d6f0e70da1b57ef5d594e",
+      "source_id": 88,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_88_IMG_8030_jpeg.rf.319d6e8124ab77fd7d6d2a96c4b26e30.jpg",
+      "bytes": 936946
+    },
+    {
+      "image_id": "nutritionverse-real-045e32bd90e2cf91cd46fdc19f90de3a454ebd1b646bf643950625bd110d9f19",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/045e32bd90e2cf91cd46fdc19f90de3a454ebd1b646bf643950625bd110d9f19.jpg",
+      "sha256": "045e32bd90e2cf91cd46fdc19f90de3a454ebd1b646bf643950625bd110d9f19",
+      "source_id": 89,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_89_IMG_8062_jpeg.rf.a47b726296502e378b3924aa11bdeb1d.jpg",
+      "bytes": 1303607
+    },
+    {
+      "image_id": "nutritionverse-real-f87e6042f493e767f82f69f873f57e0bca9aeb63291161b8284a8bba0b7ed02d",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/f87e6042f493e767f82f69f873f57e0bca9aeb63291161b8284a8bba0b7ed02d.jpg",
+      "sha256": "f87e6042f493e767f82f69f873f57e0bca9aeb63291161b8284a8bba0b7ed02d",
+      "source_id": 90,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_90_IMG_8106_jpeg.rf.854d5463ab0cfd94a505b074c90c07fa.jpg",
+      "bytes": 828260
+    },
+    {
+      "image_id": "nutritionverse-real-f672612403b01aac031d2142c7c1bda2ed00679cd8803835c63d2e8445e344f5",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/f672612403b01aac031d2142c7c1bda2ed00679cd8803835c63d2e8445e344f5.jpg",
+      "sha256": "f672612403b01aac031d2142c7c1bda2ed00679cd8803835c63d2e8445e344f5",
+      "source_id": 97,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_97_IMG_8355_jpeg.rf.68e84add8d06fdc4209e9c08b821473a.jpg",
+      "bytes": 1318689
+    },
+    {
+      "image_id": "nutritionverse-real-1877d0d7f9032ca35d014260061af9eddba019f0fdcd7a31809b42d14dfe42fe",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/1877d0d7f9032ca35d014260061af9eddba019f0fdcd7a31809b42d14dfe42fe.jpg",
+      "sha256": "1877d0d7f9032ca35d014260061af9eddba019f0fdcd7a31809b42d14dfe42fe",
+      "source_id": 98,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_98_IMG_8397_jpeg.rf.24c6df0a69a4598699eaf6460230e49a.jpg",
+      "bytes": 1274891
+    },
+    {
+      "image_id": "nutritionverse-real-699e549ba8c2b060a718ef184c02f7b04e5a5e2f7ebf0614bdbd3448f5b92254",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/699e549ba8c2b060a718ef184c02f7b04e5a5e2f7ebf0614bdbd3448f5b92254.jpg",
+      "sha256": "699e549ba8c2b060a718ef184c02f7b04e5a5e2f7ebf0614bdbd3448f5b92254",
+      "source_id": 99,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_99_IMG_8436_jpeg.rf.e8d443898e2f6d0234118f47b82cd8d7.jpg",
+      "bytes": 1029003
+    },
+    {
+      "image_id": "nutritionverse-real-6cbf06adbe4d47e4d29af584e3446ce4f4f250a79012ca46b1207208d14369e3",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/6cbf06adbe4d47e4d29af584e3446ce4f4f250a79012ca46b1207208d14369e3.jpg",
+      "sha256": "6cbf06adbe4d47e4d29af584e3446ce4f4f250a79012ca46b1207208d14369e3",
+      "source_id": 109,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_109_IMG_8797_jpeg.rf.58a6a3f3aec3ad5d01a324b3b035a920.jpg",
+      "bytes": 1325330
+    },
+    {
+      "image_id": "nutritionverse-real-1acb7bd7a7e54824babaaff05036f7290f4e5e47fd4a22af37227842dfaf360f",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/1acb7bd7a7e54824babaaff05036f7290f4e5e47fd4a22af37227842dfaf360f.jpg",
+      "sha256": "1acb7bd7a7e54824babaaff05036f7290f4e5e47fd4a22af37227842dfaf360f",
+      "source_id": 122,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_122_IMG_9204_jpeg.rf.f277bb90c15ef5a76d732133a61060fd.jpg",
+      "bytes": 1042696
+    },
+    {
+      "image_id": "nutritionverse-real-f404b350bb843cc7470b434b86b29d1f92de407b669694c5d4f17a828c5e4638",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/f404b350bb843cc7470b434b86b29d1f92de407b669694c5d4f17a828c5e4638.jpg",
+      "sha256": "f404b350bb843cc7470b434b86b29d1f92de407b669694c5d4f17a828c5e4638",
+      "source_id": 124,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_124_IMG_9272_jpeg.rf.04b06e58057927bfc9790279ff55397f.jpg",
+      "bytes": 1222787
+    },
+    {
+      "image_id": "nutritionverse-real-5ceb6ad2f1f138ffa419b9a380f8426850f35712762cdff563e299f0922803d9",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/5ceb6ad2f1f138ffa419b9a380f8426850f35712762cdff563e299f0922803d9.jpg",
+      "sha256": "5ceb6ad2f1f138ffa419b9a380f8426850f35712762cdff563e299f0922803d9",
+      "source_id": 140,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_140_IMG_9870_jpeg.rf.19ea877d5e55f6c0724d0ae31aac6d65.jpg",
+      "bytes": 1354663
+    },
+    {
+      "image_id": "nutritionverse-real-f84dead83ae77ed5a3f848ff13d81a29a9ad96305f858252f1e18ba87fedf38e",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/f84dead83ae77ed5a3f848ff13d81a29a9ad96305f858252f1e18ba87fedf38e.jpg",
+      "sha256": "f84dead83ae77ed5a3f848ff13d81a29a9ad96305f858252f1e18ba87fedf38e",
+      "source_id": 141,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_141_IMG_9912_jpeg.rf.13071e4f0e35e476279ac063343589fc.jpg",
+      "bytes": 1485568
+    },
+    {
+      "image_id": "nutritionverse-real-c48b71ed6c30baf670f0c3a9c5a83d69d240db4d44f5cc7e4d38ae9e8dbb8e51",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/c48b71ed6c30baf670f0c3a9c5a83d69d240db4d44f5cc7e4d38ae9e8dbb8e51.jpg",
+      "sha256": "c48b71ed6c30baf670f0c3a9c5a83d69d240db4d44f5cc7e4d38ae9e8dbb8e51",
+      "source_id": 142,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_142_IMG_9939_jpeg.rf.9289f074dc78d1ef673f0d5e4676ea3c.jpg",
+      "bytes": 1218015
+    },
+    {
+      "image_id": "nutritionverse-real-10b3d42ceb90a897286b9babe9943b961446453acdfbdffcb205827e4f7ac7b5",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/10b3d42ceb90a897286b9babe9943b961446453acdfbdffcb205827e4f7ac7b5.jpg",
+      "sha256": "10b3d42ceb90a897286b9babe9943b961446453acdfbdffcb205827e4f7ac7b5",
+      "source_id": 143,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_143_IMG_9975_jpeg.rf.6e3dc8720fccbf0b2c0410fbed9fccd5.jpg",
+      "bytes": 1312067
+    },
+    {
+      "image_id": "nutritionverse-real-c281b1ad8a0abd9575c7587a69f6daf1dfe63b3e789faa416e5bc9175f8a3013",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/c281b1ad8a0abd9575c7587a69f6daf1dfe63b3e789faa416e5bc9175f8a3013.jpg",
+      "sha256": "c281b1ad8a0abd9575c7587a69f6daf1dfe63b3e789faa416e5bc9175f8a3013",
+      "source_id": 160,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_160_IMG_0531_jpeg.rf.3310562ab1359ab82db53d9443baa7d3.jpg",
+      "bytes": 1425907
+    },
+    {
+      "image_id": "nutritionverse-real-2d1936792e6bb8b7c27fce7ba83a772f26a67e907d8e00590267b79fa5671e9b",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/2d1936792e6bb8b7c27fce7ba83a772f26a67e907d8e00590267b79fa5671e9b.jpg",
+      "sha256": "2d1936792e6bb8b7c27fce7ba83a772f26a67e907d8e00590267b79fa5671e9b",
+      "source_id": 161,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_161_IMG_0561_jpeg.rf.41ddb357d419b59ab37ec08838ff7ff7.jpg",
+      "bytes": 1425217
+    },
+    {
+      "image_id": "nutritionverse-real-41ea77ec679087423e3981afd4699f97d09caed4ca2c285aede07ed013b1f14d",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/41ea77ec679087423e3981afd4699f97d09caed4ca2c285aede07ed013b1f14d.jpg",
+      "sha256": "41ea77ec679087423e3981afd4699f97d09caed4ca2c285aede07ed013b1f14d",
+      "source_id": 162,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_162_IMG_0606_jpeg.rf.38d20d7a4c7f9f73721a6a30fd2aacb0.jpg",
+      "bytes": 1605907
+    },
+    {
+      "image_id": "nutritionverse-real-b7d01c17c38ddefa2def5f0cb1a6406f0f52625c87e87eea53ce5b84ac0f3521",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/b7d01c17c38ddefa2def5f0cb1a6406f0f52625c87e87eea53ce5b84ac0f3521.jpg",
+      "sha256": "b7d01c17c38ddefa2def5f0cb1a6406f0f52625c87e87eea53ce5b84ac0f3521",
+      "source_id": 167,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_167_IMG_0750_jpeg.rf.942449a67f1c167df3b880dba3a80f94.jpg",
+      "bytes": 1507004
+    },
+    {
+      "image_id": "nutritionverse-real-94ad833d83329e0c1b9e8a8dc530b671b8d2171c925d75fc83f44f6dddc5febd",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/94ad833d83329e0c1b9e8a8dc530b671b8d2171c925d75fc83f44f6dddc5febd.jpg",
+      "sha256": "94ad833d83329e0c1b9e8a8dc530b671b8d2171c925d75fc83f44f6dddc5febd",
+      "source_id": 168,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_168_IMG_0788_jpeg.rf.c5a0617697bcebd4c744d2c004e5b910.jpg",
+      "bytes": 1203324
+    },
+    {
+      "image_id": "nutritionverse-real-4b5a664e2330195a5d4755ebfe191b5e1ac4d252ee62b11875a283d06ec4e985",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/4b5a664e2330195a5d4755ebfe191b5e1ac4d252ee62b11875a283d06ec4e985.jpg",
+      "sha256": "4b5a664e2330195a5d4755ebfe191b5e1ac4d252ee62b11875a283d06ec4e985",
+      "source_id": 175,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_175_IMG_1039_jpeg.rf.f3b071ac463e6af8fe715fd38cdd0e69.jpg",
+      "bytes": 1392899
+    },
+    {
+      "image_id": "nutritionverse-real-7b274c1d0a858491b566b674925ae9215ce248fca17bd17224fa5ef548975f37",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/7b274c1d0a858491b566b674925ae9215ce248fca17bd17224fa5ef548975f37.jpg",
+      "sha256": "7b274c1d0a858491b566b674925ae9215ce248fca17bd17224fa5ef548975f37",
+      "source_id": 176,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_176_IMG_1100_jpeg.rf.3ce03798ded8d71497fc0fd345fee685.jpg",
+      "bytes": 815406
+    },
+    {
+      "image_id": "nutritionverse-real-4e9f7b510861bf6108f1b136abce50a3fe097a1d3a5cd66db221a89db01e6223",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/4e9f7b510861bf6108f1b136abce50a3fe097a1d3a5cd66db221a89db01e6223.jpg",
+      "sha256": "4e9f7b510861bf6108f1b136abce50a3fe097a1d3a5cd66db221a89db01e6223",
+      "source_id": 178,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_178_IMG_1170_jpeg.rf.9f603881cfda04e6c9a02e55958dc448.jpg",
+      "bytes": 1094198
+    },
+    {
+      "image_id": "nutritionverse-real-e10b02a96b5737ef2002b669238bbc852824f750429da2608f29e18eb20bae23",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/e10b02a96b5737ef2002b669238bbc852824f750429da2608f29e18eb20bae23.jpg",
+      "sha256": "e10b02a96b5737ef2002b669238bbc852824f750429da2608f29e18eb20bae23",
+      "source_id": 179,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_179_IMG_1204_jpeg.rf.d8f23c759f5d7f54cf14bc962c032617.jpg",
+      "bytes": 1242669
+    },
+    {
+      "image_id": "nutritionverse-real-3d92bf89f25e981063fd9643cfd20b1b4d5b6a3b6473f82079daded7c92bd3d8",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/3d92bf89f25e981063fd9643cfd20b1b4d5b6a3b6473f82079daded7c92bd3d8.jpg",
+      "sha256": "3d92bf89f25e981063fd9643cfd20b1b4d5b6a3b6473f82079daded7c92bd3d8",
+      "source_id": 180,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_180_IMG_1243_jpeg.rf.6c02a166395b4bbeffcdbdb8a59baa0f.jpg",
+      "bytes": 1581385
+    },
+    {
+      "image_id": "nutritionverse-real-b79efd2c40dfa8f73220a3ffd03a53c3d33be14bac683eee5520eb68763dd1d4",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/b79efd2c40dfa8f73220a3ffd03a53c3d33be14bac683eee5520eb68763dd1d4.jpg",
+      "sha256": "b79efd2c40dfa8f73220a3ffd03a53c3d33be14bac683eee5520eb68763dd1d4",
+      "source_id": 181,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_181_IMG_1273_jpeg.rf.0d36ca22c38d61268bef0723a70168d7.jpg",
+      "bytes": 1032126
+    },
+    {
+      "image_id": "nutritionverse-real-aa9dc181ff61f3f17d50a6cb7e175ae9d590e03a53276c0adb5e649d87cda5ca",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/aa9dc181ff61f3f17d50a6cb7e175ae9d590e03a53276c0adb5e649d87cda5ca.jpg",
+      "sha256": "aa9dc181ff61f3f17d50a6cb7e175ae9d590e03a53276c0adb5e649d87cda5ca",
+      "source_id": 182,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_182_IMG_1326_jpeg.rf.ed4727705786271373aeb4e029d71a4d.jpg",
+      "bytes": 1271555
+    },
+    {
+      "image_id": "nutritionverse-real-4f323f2222be364048b52398bd05f6b6819bd1f044712d67e905a24c0d362613",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/4f323f2222be364048b52398bd05f6b6819bd1f044712d67e905a24c0d362613.jpg",
+      "sha256": "4f323f2222be364048b52398bd05f6b6819bd1f044712d67e905a24c0d362613",
+      "source_id": 191,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_191_IMG_1646_jpeg.rf.03d73a56528197ac299edc1053b59f26.jpg",
+      "bytes": 1563291
+    },
+    {
+      "image_id": "nutritionverse-real-476af11765b0de03497345035645988a87bdc2ee9e497a9c52706b3e6c40b704",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/476af11765b0de03497345035645988a87bdc2ee9e497a9c52706b3e6c40b704.jpg",
+      "sha256": "476af11765b0de03497345035645988a87bdc2ee9e497a9c52706b3e6c40b704",
+      "source_id": 202,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_202_IMG_2056_jpeg.rf.21f6735a74c74378cf452643432339d9.jpg",
+      "bytes": 1319604
+    },
+    {
+      "image_id": "nutritionverse-real-cae566db241f7c2511618f9fbee295a4f31dc32b0aef9139b46f757df43e64fa",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/cae566db241f7c2511618f9fbee295a4f31dc32b0aef9139b46f757df43e64fa.jpg",
+      "sha256": "cae566db241f7c2511618f9fbee295a4f31dc32b0aef9139b46f757df43e64fa",
+      "source_id": 204,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_204_IMG_2135_jpeg.rf.924c47a21d440f12c16f92ee400e23fd.jpg",
+      "bytes": 1126361
+    },
+    {
+      "image_id": "nutritionverse-real-c3f0fed35630447b16f7307789cb77af2bd3130fa6d5557e215ef219fd6841e4",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/c3f0fed35630447b16f7307789cb77af2bd3130fa6d5557e215ef219fd6841e4.jpg",
+      "sha256": "c3f0fed35630447b16f7307789cb77af2bd3130fa6d5557e215ef219fd6841e4",
+      "source_id": 221,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_221_IMG_2748_jpeg.rf.21aa2e053d72200251e064b2108ef4f3.jpg",
+      "bytes": 1548947
+    },
+    {
+      "image_id": "nutritionverse-real-18f3197d40ab12ea07317682675f5cb8c7dbd269bd5a6bfbce3d2efaef46e027",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/18f3197d40ab12ea07317682675f5cb8c7dbd269bd5a6bfbce3d2efaef46e027.jpg",
+      "sha256": "18f3197d40ab12ea07317682675f5cb8c7dbd269bd5a6bfbce3d2efaef46e027",
+      "source_id": 230,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_230_IMG_3080_jpeg.rf.1db16b72883ae491774adbbde2cb05b8.jpg",
+      "bytes": 1380146
+    },
+    {
+      "image_id": "nutritionverse-real-646788d3083d0f9656164868408ab4296df280e998ee683bbeaa562ae93835a2",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/646788d3083d0f9656164868408ab4296df280e998ee683bbeaa562ae93835a2.jpg",
+      "sha256": "646788d3083d0f9656164868408ab4296df280e998ee683bbeaa562ae93835a2",
+      "source_id": 231,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_231_IMG_3119_jpeg.rf.adc86ff99c8f3f9002270eec7078df87.jpg",
+      "bytes": 1763935
+    },
+    {
+      "image_id": "nutritionverse-real-dae6d0dd4bcd621f0e6fc168b3f677f6b1aea986096610817a34af62b51076f4",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/dae6d0dd4bcd621f0e6fc168b3f677f6b1aea986096610817a34af62b51076f4.jpg",
+      "sha256": "dae6d0dd4bcd621f0e6fc168b3f677f6b1aea986096610817a34af62b51076f4",
+      "source_id": 232,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_232_IMG_3147_jpeg.rf.795276e97e723592d075f4af8b058933.jpg",
+      "bytes": 1350485
+    },
+    {
+      "image_id": "nutritionverse-real-1e236aea6fdb37e02128bd090aa101c262a127ed634739f8933470ffe14d187d",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/1e236aea6fdb37e02128bd090aa101c262a127ed634739f8933470ffe14d187d.jpg",
+      "sha256": "1e236aea6fdb37e02128bd090aa101c262a127ed634739f8933470ffe14d187d",
+      "source_id": 243,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_243_IMG_3552_jpeg.rf.bfd3cfdbd4f97df430501f8d7fff6182.jpg",
+      "bytes": 1113612
+    },
+    {
+      "image_id": "nutritionverse-real-bb24340c2b4b1a8a3f3e2bf2c7a5fac71191bbb28a8352bc034d99fb96290321",
+      "dataset": "nutritionverse-real",
+      "path": "data/images/external50/nutritionverse-real/bb24340c2b4b1a8a3f3e2bf2c7a5fac71191bbb28a8352bc034d99fb96290321.jpg",
+      "sha256": "bb24340c2b4b1a8a3f3e2bf2c7a5fac71191bbb28a8352bc034d99fb96290321",
+      "source_id": 246,
+      "source_path": "nutritionverse-manual/nutritionverse-manual/images/dish_246_IMG_3663_jpeg.rf.18ea9a91f9045cbcdb533a5bb02e674e.jpg",
+      "bytes": 1433826
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_036",
+      "image_id": "nutritionverse-real-b8b0bca9195e89eccd5619ab9aa88c4aba00050de8bfce45b9ea2289b792e4a8"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_037",
+      "image_id": "nutritionverse-real-bb8fdbe30468f23d5a7fa2be84122c3fc6f7c87141502218ce5aac512f257ac1"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_038",
+      "image_id": "nutritionverse-real-1b89902475a7cebad3ccffbe1c7d5d737313b8b4f6045d692c6dac78fcca4823"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_039",
+      "image_id": "nutritionverse-real-86afdb0e6a7946a97d481b6926f711e3caf55bddc82936299da65e9740d8415b"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_040",
+      "image_id": "nutritionverse-real-cdc9a5c086a225fe23f9e7f5cd4e2a154ee8ce0a14ddde460d02a75220065200"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_047",
+      "image_id": "nutritionverse-real-b68cf082eb686a34042caad20045e32ed4668f446a4f2ac3ce191c5fb70b8fbe"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_056",
+      "image_id": "nutritionverse-real-34dd5b417449941fc9f60a0ce52b5ce645cd356b2aef491849362e6706f74c10"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_057",
+      "image_id": "nutritionverse-real-7073785dbec2f253a56cee134e35b4d78764fc3e3f970f003a8651e81235a62f"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_059",
+      "image_id": "nutritionverse-real-2e4d34bee8686234be89a5610075a7be709dd139912aa47279d593e3475a7951"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_060",
+      "image_id": "nutritionverse-real-1e31452eb945b2758ed402e2e6af5a03aeecf280200da301bb4e337f922f3e94"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_063",
+      "image_id": "nutritionverse-real-dc7687ec05b2c5274d561198d16171847edefbe28f7a858867c7c0f7fa1d54c2"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_064",
+      "image_id": "nutritionverse-real-f5e536f33007a01b8d8682482ceb2dcf0971e73fda173b63ea14776b14ba12bc"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_065",
+      "image_id": "nutritionverse-real-39ca44fea7c239ca4d704273823a064029e4a249d94f7e4606e6c708426fb805"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_071",
+      "image_id": "nutritionverse-real-c728fc9450738e09d99a1ae0905e228bbd283989dee9af721836c4ce0e4a8db8"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_072",
+      "image_id": "nutritionverse-real-8157e50ab7eafd46d1a41049ee3c78c5edb1de8e3fd8907e1901c279e4bbc679"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_087",
+      "image_id": "nutritionverse-real-f68541a139517ff5f751b0f44fa6a39e6db0c0531c5d2c92eec778d25f3a609f"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_088",
+      "image_id": "nutritionverse-real-99760c7a056c077711f332f0ec49356e51f247710d0d6f0e70da1b57ef5d594e"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_089",
+      "image_id": "nutritionverse-real-045e32bd90e2cf91cd46fdc19f90de3a454ebd1b646bf643950625bd110d9f19"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_090",
+      "image_id": "nutritionverse-real-f87e6042f493e767f82f69f873f57e0bca9aeb63291161b8284a8bba0b7ed02d"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_097",
+      "image_id": "nutritionverse-real-f672612403b01aac031d2142c7c1bda2ed00679cd8803835c63d2e8445e344f5"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_098",
+      "image_id": "nutritionverse-real-1877d0d7f9032ca35d014260061af9eddba019f0fdcd7a31809b42d14dfe42fe"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_099",
+      "image_id": "nutritionverse-real-699e549ba8c2b060a718ef184c02f7b04e5a5e2f7ebf0614bdbd3448f5b92254"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_109",
+      "image_id": "nutritionverse-real-6cbf06adbe4d47e4d29af584e3446ce4f4f250a79012ca46b1207208d14369e3"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_122",
+      "image_id": "nutritionverse-real-1acb7bd7a7e54824babaaff05036f7290f4e5e47fd4a22af37227842dfaf360f"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_124",
+      "image_id": "nutritionverse-real-f404b350bb843cc7470b434b86b29d1f92de407b669694c5d4f17a828c5e4638"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_140",
+      "image_id": "nutritionverse-real-5ceb6ad2f1f138ffa419b9a380f8426850f35712762cdff563e299f0922803d9"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_141",
+      "image_id": "nutritionverse-real-f84dead83ae77ed5a3f848ff13d81a29a9ad96305f858252f1e18ba87fedf38e"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_142",
+      "image_id": "nutritionverse-real-c48b71ed6c30baf670f0c3a9c5a83d69d240db4d44f5cc7e4d38ae9e8dbb8e51"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_143",
+      "image_id": "nutritionverse-real-10b3d42ceb90a897286b9babe9943b961446453acdfbdffcb205827e4f7ac7b5"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_160",
+      "image_id": "nutritionverse-real-c281b1ad8a0abd9575c7587a69f6daf1dfe63b3e789faa416e5bc9175f8a3013"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_161",
+      "image_id": "nutritionverse-real-2d1936792e6bb8b7c27fce7ba83a772f26a67e907d8e00590267b79fa5671e9b"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_162",
+      "image_id": "nutritionverse-real-41ea77ec679087423e3981afd4699f97d09caed4ca2c285aede07ed013b1f14d"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_167",
+      "image_id": "nutritionverse-real-b7d01c17c38ddefa2def5f0cb1a6406f0f52625c87e87eea53ce5b84ac0f3521"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_168",
+      "image_id": "nutritionverse-real-94ad833d83329e0c1b9e8a8dc530b671b8d2171c925d75fc83f44f6dddc5febd"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_175",
+      "image_id": "nutritionverse-real-4b5a664e2330195a5d4755ebfe191b5e1ac4d252ee62b11875a283d06ec4e985"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_176",
+      "image_id": "nutritionverse-real-7b274c1d0a858491b566b674925ae9215ce248fca17bd17224fa5ef548975f37"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_178",
+      "image_id": "nutritionverse-real-4e9f7b510861bf6108f1b136abce50a3fe097a1d3a5cd66db221a89db01e6223"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_179",
+      "image_id": "nutritionverse-real-e10b02a96b5737ef2002b669238bbc852824f750429da2608f29e18eb20bae23"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_180",
+      "image_id": "nutritionverse-real-3d92bf89f25e981063fd9643cfd20b1b4d5b6a3b6473f82079daded7c92bd3d8"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_181",
+      "image_id": "nutritionverse-real-b79efd2c40dfa8f73220a3ffd03a53c3d33be14bac683eee5520eb68763dd1d4"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_182",
+      "image_id": "nutritionverse-real-aa9dc181ff61f3f17d50a6cb7e175ae9d590e03a53276c0adb5e649d87cda5ca"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_191",
+      "image_id": "nutritionverse-real-4f323f2222be364048b52398bd05f6b6819bd1f044712d67e905a24c0d362613"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_202",
+      "image_id": "nutritionverse-real-476af11765b0de03497345035645988a87bdc2ee9e497a9c52706b3e6c40b704"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_204",
+      "image_id": "nutritionverse-real-cae566db241f7c2511618f9fbee295a4f31dc32b0aef9139b46f757df43e64fa"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_221",
+      "image_id": "nutritionverse-real-c3f0fed35630447b16f7307789cb77af2bd3130fa6d5557e215ef219fd6841e4"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_230",
+      "image_id": "nutritionverse-real-18f3197d40ab12ea07317682675f5cb8c7dbd269bd5a6bfbce3d2efaef46e027"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_231",
+      "image_id": "nutritionverse-real-646788d3083d0f9656164868408ab4296df280e998ee683bbeaa562ae93835a2"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_232",
+      "image_id": "nutritionverse-real-dae6d0dd4bcd621f0e6fc168b3f677f6b1aea986096610817a34af62b51076f4"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_243",
+      "image_id": "nutritionverse-real-1e236aea6fdb37e02128bd090aa101c262a127ed634739f8933470ffe14d187d"
+    },
+    {
+      "sample_id": "nutritionverse-real-v2-val-dish_246",
+      "image_id": "nutritionverse-real-bb24340c2b4b1a8a3f3e2bf2c7a5fac71191bbb28a8352bc034d99fb96290321"
+    }
+  ]
+}

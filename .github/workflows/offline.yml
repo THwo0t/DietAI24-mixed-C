@@ -1,0 +1,33 @@
+name: Offline portability
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      runtime:
+        description: Also download and verify the pinned original runtime
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  check:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pinned local environment
+        run: ./setup.sh code
+      - name: Portable and data checks (no API)
+        run: .venv/bin/python -B -m unittest discover -s tests -v
+      - name: Original mixed-C checks (no API)
+        run: .venv/bin/python -B -m unittest discover -s optimization_sol_20261102/mae_v2/c_stage_split_20261105 -p 'test_*.py' -v
+      - name: Install original runtime
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.runtime }}
+        run: .venv/bin/python tools/runtime.py install
+      - name: Verify actual original index and wiring (network blocked)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.runtime }}
+        run: .venv/bin/python -B tools/check.py --runtime
