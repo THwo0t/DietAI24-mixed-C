@@ -5,7 +5,7 @@
 ## 第一步
 
 1. 读 `README.md`、本文件、`docs/DATASETS_中文.md`、`VALIDATION.md`。
-2. `./setup.sh`，再运行 README 的两组离线测试和 `.venv/bin/python tools/check.py --runtime`。
+2. `./setup.sh`，再运行 `.venv/bin/python -B tools/test_offline.py` 和 `.venv/bin/python tools/check.py --runtime`。测试入口规范化Mac临时目录别名后运行两组检查，原方法及原测试断言保持不变。
 3. 查看 `results/baseline_summary.json` 和 `provenance/source_manifest.json`，确认模型分工、评分范围及原代码哈希。
 4. 实际调用模型前取得当前用户对本轮数据、目标服务、并发及付费的明确授权。不要把本次公开备份授权当成模型测试授权。
 

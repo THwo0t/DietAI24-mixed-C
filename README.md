@@ -18,8 +18,7 @@
 git clone https://github.com/THwo0t/DietAI24-mixed-C.git
 cd DietAI24-mixed-C
 ./setup.sh
-.venv/bin/python -B -m unittest discover -s tests -v
-.venv/bin/python -B -m unittest discover -s optimization_sol_20261102/mae_v2/c_stage_split_20261105 -p 'test_*.py' -v
+.venv/bin/python -B tools/test_offline.py
 ```
 
 `setup.sh` 下载固定 uv、Python 3.10.13、完整锁定依赖和约165.5 MB运行数据包，全部放在项目内。运行包包含原 FNDDS 表、目录、5624份保存的向量和原 Chroma 索引，不需要付费重建向量。只装代码环境可运行 `./setup.sh code`。安装不调用模型。
