@@ -35,6 +35,11 @@ def main():
         Posthog.capture = lambda *a, **k: None
         with run.original_index(m) as index:
             result.update(runtime_checked=True, vectors=index.collection.count(), dimensions=index.dimension)
+            # Exercise the saved native search graph on each platform, without
+            # asking an embedding API or changing its original search parameters.
+            import numpy as np
+            vectors = np.load(run.V2 / 'data/vectors/embeddings.npy', allow_pickle=False, mmap_mode='r')
+            result['offline_search_codes'] = [index.search4(vectors[i].tolist()) for i in (0, 2812, 5623)]
             catalog = run.read(run.V2 / 'round11/prepared/catalog.json')
             assert len(catalog['foods']) == 5624 and len(catalog['asa_options']) == 555
             # Exercise actual production wiring without sending a request.
