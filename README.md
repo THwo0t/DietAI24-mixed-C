@@ -88,3 +88,5 @@ ASA条件结果加 `--protocol conditional`，标签键改为关联ID。工具�
 历史 `run.py`、`score.py` 是已完成实验的归档，有旧路径、旧结果导入、跨折标签中位数回退及校正代码。**新输入统一走 `tools/run_mixed_c.py`；失败保持空值，不用真实标签补预测。** 历史完整重放需要另行迁移旧私有缓存和开发标签，单纯重新调用模型不能保证重现原数值。
 
 来源：[作者原仓库](https://github.com/Runz96/DietAI24)、[原混合C公开备份](https://github.com/THwo0t/DietAI24-reproduction/tree/e81f1f69c6a7d11bc9418ce92cce99689ddf1ccb/research_backups/c_mixed_20261107)。原作者 README 的许可说明保留于 `UPSTREAM_README.md`；数据各自条款见数据文档和 `THIRD_PARTY.md`，不把数据许可替换成代码许可。
+
+本分支额外保存[第 9 批全 Argon（16/20）源码及回退说明](docs/ARGON_ROUND09_中文.md)。
