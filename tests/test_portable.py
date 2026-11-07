@@ -31,7 +31,8 @@ class Store:
 class PortableTests(unittest.TestCase):
     def test_output_must_stay_in_ignored_runs_without_symlinks(self):
         with tempfile.TemporaryDirectory() as d:
-            root = Path(d)
+            # Match production ROOT, which resolves macOS /var -> /private/var.
+            root = Path(d).resolve()
             (root / 'runs').mkdir()
             (root / 'examples').mkdir()
             (root / 'runs/link').symlink_to(root / 'examples', target_is_directory=True)
@@ -70,13 +71,14 @@ class PortableTests(unittest.TestCase):
 
     def test_corrupted_prepared_graph_rejected_even_if_vectors_unchanged(self):
         with tempfile.TemporaryDirectory() as d:
-            p = Path(d) / 'header.bin'
+            root = Path(d).resolve()
+            p = root / 'header.bin'
             p.write_bytes(b'original graph')
             expected = {'index/chroma/header.bin': run.file_sha(p)}
-            run.verify_prepared_graph(Path(d), expected)
+            run.verify_prepared_graph(root, expected)
             p.write_bytes(b'changed graph')
             with self.assertRaises(ValueError):
-                run.verify_prepared_graph(Path(d), expected)
+                run.verify_prepared_graph(root, expected)
 
     def test_failed_asa_identity_is_failed_association_not_normal_miss(self):
         class Pipe:

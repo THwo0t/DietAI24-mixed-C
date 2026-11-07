@@ -13,7 +13,8 @@ import runtime
 class RuntimeTests(unittest.TestCase):
     def test_interrupted_install_never_publishes_partial_final_file(self):
         with tempfile.TemporaryDirectory() as d:
-            root = Path(d)
+            # Production ROOT is canonical even when macOS TMPDIR uses /var.
+            root = Path(d).resolve()
             archive = root / 'runtime.zip'
             data = b'correct runtime bytes'
             with zipfile.ZipFile(archive, 'w') as z:
@@ -45,7 +46,7 @@ class RuntimeTests(unittest.TestCase):
 
     def test_preserves_existing_different_runtime_file(self):
         with tempfile.TemporaryDirectory() as d:
-            root = Path(d)
+            root = Path(d).resolve()
             p = root / 'runtime.zip'
             with zipfile.ZipFile(p, 'w') as z:
                 z.writestr('data/value', b'original')
